@@ -288,6 +288,9 @@ footer{
 	padding: 10px 0px;
     background-color: #f6f6f6;
 }
+.frm{
+    padding: 0 40px;
+}
 .f-form{
     margin: 30px 120px;
 }
@@ -296,26 +299,31 @@ label{
     font-size: 16px;
     font-family: "Open Sans", sans-serif;
 }
-.form-group input{
-	width: 100%;
+.form-group select{
+    width: 90%;
     margin: 8px 0px;
     padding: 10px 26px;
 }
-.description input{
-    width: 100%;
+.form-group input{
+	width: 90%;
     margin: 8px 0px;
-    padding: 50px 26px;
+    padding: 10px 26px;
+}
+.description textarea{
+    width: 95%;
+    margin: 8px 0px;
+    padding: 20px 18px;
 }
 .evidence input{
     width: 100%;
     margin: 12px 0px;
     color: #0074ff;
 }
-.f-btn{
-	padding: 14px 90px;
-    margin: 24px 0px;
+.f-btn {
+    padding: 10px 65px;
+    margin: 16px 0px;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
     background-color: #f7583e;
     color: white;
     border-color: #f7583e;
